@@ -21,13 +21,13 @@
 
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary customizedNav">
-        <div class="container-fluid">
+        <div class="container-fluid d-flex justify-content-between">
             <a class="navbar-brand" href="#">Lucas Z</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#work">Work</a>
@@ -48,16 +48,12 @@
     </nav>
 
     <!-- a hero image and a subtitle -->
-    <header class="p-5 mb-4 headerImage">
-        <div class="p-5" style="margin-left: 50%;">
-            <div class="p-5 text-white">
-                <h1 class=" display-5 fw-bold">Lucas Z, Your Web Development Solution.</h1>
-                <img class="img-fluid rounded-circle"
-                    src="https://media.licdn.com/dms/image/D4E03AQFq8DPSoNPz6A/profile-displayphoto-shrink_200_200/0/1688675290402?e=1705536000&amp;v=beta&amp;t=ZABFk0KotToqV3GSUa7Dqx-P27RQDW4HkQ57RaH-G5A"
-                    alt="avatar" width="250" height="350" style="margin:6em" ;>
-                <p class="col-md-12 fs-4">Welcome to my portfolio and find about more about my projects! </p>
-                <!-- <button class="btn btn-primary btn-lg" type="button">Learn more</button> -->
-            </div>
+    <header class="mb-4 headerImage">
+        <div class="p-5" style="margin-left: 40%; height: 100%;">
+            <h1 class="display-5 text-black">Lucas Z, <br> Your Web Development Solution.</h1>
+            <p class="col-md-12 fs-4 headerText">Hello! Welcome to my portfolio and find about more about my projects!
+            </p>
+        </div>
         </div>
         </div>
         </div>
@@ -78,7 +74,7 @@
                         <img src="images/02-portfolio-10.jpg" class="card-img-top" alt="project one">
                     </a>
                 </div>
-                <div class="col-md-5 card-body">
+                <div class="col-md-5 card-body d-flex align-items-center flex-column justify-content-center">
                     <h5 class="card-title">Code Refactoring Challenge #1</h5>
                     <p class="card-text">HTML/ CSS/ Git</p>
                     <a href="https://zhaolucas.github.io/horiseon-reinvention--1/" target="_blank"
@@ -92,7 +88,7 @@
                         <img src="images/02-portfolio-11.jpg" class="card-img-top" alt="project two">
                     </a>
                 </div>
-                <div class="col-md-5 card-body">
+                <div class="col-md-5 card-body d-flex align-items-center flex-column justify-content-center">
                     <h5 class="card-title">Portfolio Challenge #2</h5>
                     <p class="card-text">Flexbox/ Grid/ Media Query</p>
                     <a href="https://zhaolucas.github.io/personal-portfolio/" target="_blank"
@@ -107,10 +103,11 @@
                         <img src="images/02-portfolio-14.jpg" class="card-img-top" alt="project three">
                     </a>
                 </div>
-                <div class="col-md-5 card-body">
+                <div class="col-md-5 card-body d-flex align-items-center flex-column justify-content-center">
                     <h5 class="card-title">Portfolio Challenge #3</h5>
                     <p class="card-text">Bootstrap</p>
-                    <a href="https://zhaolucas.github.io/bootrap-portfolio" target="_blank" class="btn btn-primary">View
+                    <a href="https://zhaolucas.github.io/Bootstrap-Portfolio/" target="_blank"
+                        class="btn btn-primary">View
                         Project</a>
                 </div>
             </div>
@@ -121,9 +118,9 @@
                         <img src="images/02-portfolio-9.jpg" class="card-img-top" alt="project four">
                     </a>
                 </div>
-                <div class="col-md-5 card-body">
+                <div class="col-md-5 card-body d-flex align-items-center flex-column justify-content-center">
                     <h5 class="card-title">HTML Cheatsheet/ CSS Interview Questions</h5>
-                    <p class="card-text">HTML Cheatsheet/ CSS Interview Questions</p>
+                    <p class="card-text">Discover the wide range of resources to crack the code!</p>
                     <a href="https://zhaolucas.github.io/coding-interview-university/" target="_blank"
                         class="btn btn-primary">View Project</a>
                 </div>
@@ -138,7 +135,7 @@
                     <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
                         <h2 class="mb-4 display-5 text-center">Skills</h2>
                         <p class="text-secondary mb-5 text-center lead fs-4">The skills expected to be gained in the
-                            Skills Life Edx Web Development Bootcamp</p>
+                            Skills for Life Edx Web Development Bootcamp</p>
                         <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
                     </div>
                 </div>
@@ -201,22 +198,26 @@
         <!-- about me section -->
         <section id="aboutMe">
             <div class="container customizedImage">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 order-lg-2">
-                        <div class="p-5">
+                <div class="row justify-content-between d-flex">
+                    <div class="col-lg-3 order-lg-2">
+                        <div class="d-flex p-5 justify-content-center">
+                            <img class="img-fluid rounded-circle d-flex"
+                                src="https://media.licdn.com/dms/image/D4E03AQFq8DPSoNPz6A/profile-displayphoto-shrink_200_200/0/1688675290402?e=1705536000&amp;v=beta&amp;t=ZABFk0KotToqV3GSUa7Dqx-P27RQDW4HkQ57RaH-G5A"
+                                alt="avatar" width="250" height="350" ;>
                         </div>
                     </div>
-                    <div class="col-lg-7 order-lg-4 text-black">
+                    <div class="col-lg-9 order-lg-4 text-black">
                         <div class="p-5">
-                            <h2 class="display-4">Hello World!</h2>
+
+                            <h2 class="display-4 d-flex">Hello World!</h2>
                             <p> I am a data analyst, aspiring to be a full-stack developer. <br>
                                 The work section highlights the projects I undertake at the Bootcamp.
                                 <br>
-                                For collaboration, please find my contact details in the contact me section.
+                                For more information, contact me or view my digital resume below.
                             </p>
                             <a href="https://bold.pro/my/lucaszhao" class="btn btn-lg btn-outline-light"
                                 target="_blank">
-                                View my Digital Resume
+                                Digital Resume
                             </a>
                         </div>
                     </div>
@@ -225,44 +226,33 @@
         </section>
 
 
-        <div class="container my-5">
+        <footer class="container my-5 text-center text-white" style="background-color: #f1f1f1;">
+            <!-- Grid container -->
+            <div class="container pt-4">
+                <!-- Section: Social media -->
+                <section class="mb-4" id="contactMe">
 
-            <footer class="text-center text-white" style="background-color: #f1f1f1;">
-                <!-- Grid container -->
-                <div class="container pt-4">
-                    <!-- Section: Social media -->
-                    <section class="mb-4" id="contactMe">
+                    <!-- Twitter -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/ZhaoLucas"
+                        target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
 
-                        <!-- Twitter -->
-                        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/ZhaoLucas"
-                            target="_blank" role="button" data-mdb-ripple-color="dark"><i
-                                class="fab fa-twitter"></i></a>
+                    <!-- Linkedin -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://linkedin.com/in/lucaszhao"
+                        target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                    <!-- Github -->
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="http://github.com/zhaolucas"
+                        target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+                </section>
 
-                        <!-- Linkedin -->
-                        <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-                            href="https://linkedin.com/in/lucaszhao" target="_blank" role="button"
-                            data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
-                        <!-- Github -->
-                        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="http://github.com/zhaolucas"
-                            target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
-                    </section>
-
-                    <div class="container">
-                        <p class="text-secondary">
-                            <i class="fas fa-phone"></i> +447947486466
-                            <br>
-                            <i class="far fa-envelope"></i> lucas.zhaopeiqi@gmail.com
-                        </p>
-                    </div>
-            </footer>
-        </div>
-        <!-- Section: Social media -->
-        </>
-        <!-- Grid container -->
+                <div class="container">
+                    <p class="text-secondary">
+                        <i class="fas fa-phone"></i> +447947486466
+                        <br>
+                        <i class="far fa-envelope"></i> lucas.zhaopeiqi@gmail.com
+                    </p>
+                </div>
         </footer>
-
         </div>
-        <!-- End of .container -->
 
     </main>
 </body>

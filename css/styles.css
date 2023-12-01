@@ -23,9 +23,15 @@ header {
     /* Medium gray background color */
     color: white;
     /* White text color */
-    background-image: url("../images/02-portfolio-8.jpg");
+    background-image: url("../images/02-portfolio-7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1100px;
+}
+
+.headerText {
+    margin-left: 10%;
+    transform: translate(0, 1000%);
 }
 
 #work {
@@ -49,7 +55,7 @@ header {
 }
 
 .btn-outline-light {
-    color: lightblue !important;
+    color: darkgrey !important;
     /* Text color for light button */
 }
 
@@ -72,7 +78,7 @@ header {
 
 /* About me section styles */
 .bg-secondary {
-    background-color: #6c757d;
+    background-color: brown;
     /* Medium gray background color */
     color: white;
     /* White text color */
@@ -95,7 +101,7 @@ footer {
 }
 
 .btn-link:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
     /* Box shadow on hover for buttons */
 }
 
