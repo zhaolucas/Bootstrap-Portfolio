@@ -30,20 +30,21 @@ To set up the development environment, load the HTML and CSS files into a VS Cod
 
 ## Usage 
 
-![Alt text](<images/Screenshot 2023-11-28 at 22.17.19.png>)
+![Alt text](<images/IMG_0292.jpg>)
 
-The page loads four sections: 
-1) about me: name, avator, description, resume link
-2) work: four projects with titled images of applications; the first application is larger than the rest; when clicked on the title, the application is opened to the deployed page.
-3) contact: social media, number and email
-4) layout should be responsive to the size of the screens and devices. 
-
+The page loads six sections: 
+1) navigation bar that opens to four sections 
+2) jumbotron that displays key messages 
+3) work: four projects with images applications in grid, and an open the project button on the right, with descriptions 
+4) skills section that details four skills
+5) about me: name, avator, description, resume link with shadow effect upon hover
+6) contact: social media, number and email with shadow effect on icons upon hover
 
 ## Credits
 
 TA: Jack Labukas
-Instructor
-Personal Tutor: John Coakley
+Instructor: Laura Cole
+Personal Tutor: Sandra Smith
 W3 Schools
 
 ## License
