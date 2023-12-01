@@ -1,0 +1,85 @@
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: white;
+}
+
+.navbar-brand {
+    color: grey;
+    /* White text color for brand */
+}
+
+.navbar-nav .nav-link {
+    color: black !important;
+    /* White text color for nav links */
+}
+
+/* Header styles */
+header {
+    background-color: rgb(142, 136, 136);
+    /* Medium gray background color */
+    color: white;
+    /* White text color */
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #007bff;
+    /* Primary button color */
+    border-color: #007bff;
+}
+
+/* Card styles */
+.card {
+    margin: 10px;
+    /* Add some margin between cards */
+}
+
+/* Skill section styles */
+.bsb-skill-1 {
+    background-color: #f8f9fa;
+    /* Light gray background color */
+}
+
+/* About me section styles */
+.bg-secondary {
+    background-color: #6c757d;
+    /* Medium gray background color */
+}
+
+/* Footer styles */
+footer {
+    background-color: #f1f1f1;
+    /* Light gray background color */
+    color: #212529;
+    /* Dark text color */
+    padding: 20px 0;
+    /* Add padding top and bottom */
+}
+
+.btn-outline-light {
+    color: lightblue !important;
+    /* Text color for light button */
+    transition: box-shadow 0.3s ease;
+    /* Add transition for a smooth effect */
+}
+
+.btn-outline-light:hover {
+    box-shadow: 0 0 10px blue;
+    /* Box shadow on hover for buttons */
+}
+
+/* Social media icon styles */
+.btn-link {
+    color: #212529 !important;
+    /* Dark text color for social media icons */
+}
+
+.btn-link:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    /* Box shadow on hover for buttons */
+}
