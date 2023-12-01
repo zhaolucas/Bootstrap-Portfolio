@@ -8,14 +8,13 @@ body {
     background-color: white;
 }
 
-.navbar-brand {
+.navbar-brand, .navbar-nav .nav-link {
     color: grey;
-    /* White text color for brand */
+    /* Default text color for brand and nav links */
 }
 
-.navbar-nav .nav-link {
-    color: black !important;
-    /* White text color for nav links */
+.customizedNav {
+    font-size: 30px;
 }
 
 /* Header styles */
@@ -24,13 +23,39 @@ header {
     /* Medium gray background color */
     color: white;
     /* White text color */
+    background-image: url("../images/02-portfolio-8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#work {
+    margin-bottom: 5%;
+}
+
+.container .row {
+    margin-top: 5%;
 }
 
 /* Button styles */
+.btn-primary, .btn-outline-light {
+    transition: box-shadow 0.3s ease;
+    /* Add transition for a smooth effect */
+}
+
 .btn-primary {
     background-color: #007bff;
     /* Primary button color */
     border-color: #007bff;
+}
+
+.btn-outline-light {
+    color: lightblue !important;
+    /* Text color for light button */
+}
+
+.btn-outline-light:hover, .btn-primary:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Box shadow on hover for buttons */
 }
 
 /* Card styles */
@@ -49,6 +74,8 @@ header {
 .bg-secondary {
     background-color: #6c757d;
     /* Medium gray background color */
+    color: white;
+    /* White text color */
 }
 
 /* Footer styles */
@@ -61,18 +88,6 @@ footer {
     /* Add padding top and bottom */
 }
 
-.btn-outline-light {
-    color: lightblue !important;
-    /* Text color for light button */
-    transition: box-shadow 0.3s ease;
-    /* Add transition for a smooth effect */
-}
-
-.btn-outline-light:hover {
-    box-shadow: 0 0 10px blue;
-    /* Box shadow on hover for buttons */
-}
-
 /* Social media icon styles */
 .btn-link {
     color: #212529 !important;
@@ -82,4 +97,11 @@ footer {
 .btn-link:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     /* Box shadow on hover for buttons */
+}
+
+/* Customized Image */
+.customizedImage {
+    background-image: url("../images/02-portfolio-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
